@@ -99,9 +99,10 @@ public class Main {
         int mashaSalary = 67760; // текущая зарплата Маши
         int denisSalary = 83690; // текущая зарплата Дениса
         int kristinaSalary = 76230; // текущая зарплата Кристины
-        float mashaNewSalary = mashaSalary * 1.1f;
-        float denisNewSalary = denisSalary * 1.1f;
-        float kristinaNewSalary = kristinaSalary * 1.1f;
+        float salaryIndex = 1.1f;
+        float mashaNewSalary = mashaSalary * salaryIndex;
+        float denisNewSalary = denisSalary * salaryIndex;
+        float kristinaNewSalary = kristinaSalary * salaryIndex;
         float mashaIncomeDifference = mashaNewSalary * 12 - mashaSalary * 12;
         float denisIncomeDifference = denisNewSalary * 12 - denisSalary * 12;
         float kristinaIncomeDifference = kristinaNewSalary * 12 - kristinaSalary * 12;
